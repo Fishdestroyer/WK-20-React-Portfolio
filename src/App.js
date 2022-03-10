@@ -8,12 +8,8 @@ import Social from './components/Social';
 function App() {
   const [categories] = useState([
     {
-      name: 'Group',description: 'Group projects I have assisted in',
-      
-    },
+      name: 'Group',description: 'Group projects I have assisted in',},
     { name: 'solo', description: 'Projects I have worked on' },
-    { name: 'github', description: 'look for me on GitHub' },
-    
     { name: 'resume', description: 'send me a request'},
   
   ]);
@@ -35,12 +31,15 @@ function App() {
         {!contactSelected ? (
           <>
             <Gallery currentCategory={currentCategory}></Gallery>
+            
             <About></About>
             <Social></Social>
+            
           </>
         ) : (
           <ContactForm></ContactForm>
         )}
+         
       </main>
     </div>
   );

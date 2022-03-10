@@ -11,7 +11,8 @@ function App() {
       description: 'Group projects I have assisted in',
     },
     { name: 'solo', description: 'Projects I have worked on' },
-    { name: 'find me', description: 'look for me on GitHub and linkedin' },
+    { name: 'github', description: 'look for me on GitHub' },
+    { name: 'linkedin', description: 'look for me on linkedin' },
     { name: 'resume', description: 'send me a request'},
   
   ]);

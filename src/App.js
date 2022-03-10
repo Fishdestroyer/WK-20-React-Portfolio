@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
+import Social from './components/Social';
 
 function App() {
   const [categories] = useState([
@@ -12,7 +13,7 @@ function App() {
     },
     { name: 'solo', description: 'Projects I have worked on' },
     { name: 'github', description: 'look for me on GitHub' },
-    { name: 'linkedin', description: 'look for me on linkedin' },
+    
     { name: 'resume', description: 'send me a request'},
   
   ]);
@@ -35,6 +36,7 @@ function App() {
           <>
             <Gallery currentCategory={currentCategory}></Gallery>
             <About></About>
+            <Social></Social>
           </>
         ) : (
           <ContactForm></ContactForm>

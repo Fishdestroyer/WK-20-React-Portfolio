@@ -65,5 +65,5 @@ https://github.com/Fishdestroyer/cowboys-and-computers
 
 ## Deployed site
 
-
+https://fishdestroyer.github.io/cowboys-and-computers/
 

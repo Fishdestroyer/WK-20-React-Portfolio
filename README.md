@@ -8,6 +8,7 @@ This is my version of the week 20 React Portfolio.
 - [Acceptance Criteria](#acceptance-criteria)
 - [Technologies used](#technologies-used)
 - [Required installation](#required-installation)
+- [Acknowledgements](#acknowledgements)
 - [Resources](#resources)
 - [GitHub](#github)
 - [Deployed site](#deployed-site)
@@ -50,13 +51,16 @@ NPM install all required dependencies after cloning repo.
 
 npm install react dom
 
+## Acknowledgements
+Peer support
+
 ## Resources
 Google
 
 NPM
 
 ## GitHub
-
+https://github.com/Fishdestroyer/cowboys-and-computers
 
 
 ## Deployed site

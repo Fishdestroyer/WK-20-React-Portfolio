@@ -7,8 +7,8 @@ import ContactForm from './components/Contact';
 function App() {
   const [categories] = useState([
     {
-      name: 'Group',
-      description: 'Group projects I have assisted in',
+      name: 'Group',description: 'Group projects I have assisted in',
+      
     },
     { name: 'solo', description: 'Projects I have worked on' },
     { name: 'github', description: 'look for me on GitHub' },

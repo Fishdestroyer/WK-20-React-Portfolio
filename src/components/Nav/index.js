@@ -27,7 +27,7 @@ function Nav(props) {
               About me
             </a>
           </li>
-          <li className="my-5-2">
+          <li className="mx-2">
             <a href="#Social" onClick={() => setContactSelected(false)}>Social
             </a>
           </li>
